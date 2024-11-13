@@ -1,0 +1,16 @@
+.gamertingz-footer{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  z-index: 100;
+  background-color: #040c24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFBF00;
+  font-family: Nico Moji, Arial;
+  font-size: 10px;
+  letter-spacing: 2px;
+}

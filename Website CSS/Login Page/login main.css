@@ -1,0 +1,192 @@
+.container{
+  width: 1000px;
+  border: 2px solid black;
+  margin: auto;
+  padding-bottom: 20px;
+  margin-top: 105px;
+}
+
+/*Login Section*/
+.login-section{
+ margin-top: 5px;
+ height: 100px;
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ z-index: 1;
+}
+
+.login-section-2{
+  height: 50px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  margin-bottom: 20px;
+ }
+
+
+/*Subsection 1*/
+.email{
+  height: 30px;
+  padding: 5px 5px;
+  width: 400px;
+  font-size: 20px;
+
+  font-family: Gugi, Arial;
+  border-radius: 10px;
+  box-shadow: inset 0 0px 5px rgba(0,0,0,0.3);
+}
+
+.password{
+  height: 30px;
+  padding: 5px 5px;
+  width: 400px;
+  font-size: 20px;
+
+  font-family: Gugi, Arial;
+  border-radius: 10px;
+  box-shadow: inset 0 0px 5px rgba(0,0,0,0.3);
+}
+
+.phone-number{
+  height: 30px;
+  padding: 5px 5px;
+  width: 400px;
+  font-size: 20px;
+
+  font-family: Gugi, Arial;
+  border-radius: 10px;
+  box-shadow: inset 0 0px 5px rgba(0,0,0,0.3);
+}
+
+.d-o-b{
+  height: 30px;
+  padding: 5px 5px;
+  width: 400px;
+  font-size: 20px;
+
+  font-family: Gugi, Arial;
+  border-radius: 10px;
+  box-shadow: inset 0 0px 5px rgba(0,0,0,0.3);
+}
+
+
+/*Subsection 2*/
+.subsection-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+
+  padding: 5px 10px;
+
+  box-shadow: inset 0 0px 5px rgba(0,0,0,0.3);
+}
+
+.gender{
+  width: 270px;
+  font-size: 20px;
+  font-family: Gugi, Arial;
+  color: grey;
+}
+
+.gender-selection{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.label{
+  margin-right: 10px;
+  font-family: Gugi, Arial;
+}
+
+.m-f{
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.login-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-button{
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  background-color: grey;
+  font-size: 20px;
+}
+
+/*Subsection 3*/
+.or{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: Goudy Bookletter 1911, Arial;
+  font-weight: bold;
+}
+
+.extra-login-container{
+  display: flex;
+  justify-content: center;
+}
+
+.login-with-sections{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.log-in-with-container{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-in-with{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.login-picture{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+.forgot-password-container{
+  display: flex;
+  justify-content: center;
+}
+
+.forgot-password{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

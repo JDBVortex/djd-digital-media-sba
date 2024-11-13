@@ -1,0 +1,77 @@
+.footer{
+  display: flex;
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  background-color: #3b3b3b;
+}
+
+/*Section 1*/
+.footer-section-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 2;
+  margin-left: 30px;
+}
+
+.footer-notes{
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fill-space{
+  display: flex;
+  position: relative;
+  width: 100px;
+}
+
+.fill-space-white-bar{
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 48px;
+  right: 50px;
+  height: 80px;
+  background-color: white;
+}
+
+/*Section 3*/
+.footer-section-3{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.whatsapp-logo{
+  height: 35px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.instagram-logo{
+  height: 35px;
+  object-fit: cover;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.youtube-logo{
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.twitter-logo{
+  height: 30px;
+  object-fit: cover;
+  cursor: pointer;
+}

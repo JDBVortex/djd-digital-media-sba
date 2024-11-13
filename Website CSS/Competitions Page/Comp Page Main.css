@@ -1,0 +1,154 @@
+#comp-page-main{
+  height: 100%;
+  background-color: rgb(0, 0, 5);
+}
+
+/*banner*/
+#comp-banner{
+  margin-top: 50px;
+  background-image: linear-gradient(to top right,#212121, #3b3b3b,#313d60, #011c6c 70%,#870099);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#comp-banner-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#competitions{
+  color: white;
+  font-family: Tiny5, Arial;
+  text-transform: uppercase;
+  font-size: 80px;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: center;
+
+  color: white;
+}
+
+
+#competitions-subheader{
+  text-transform: uppercase;
+  font-family: "Ibarra Real Nova", Arial;
+  font-size: 30px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 5px;
+  color: white;
+}
+
+/*Comp List*/
+.comp-list{
+  height: 100%;
+  background-image: linear-gradient(to left, #011c6c,#870099);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.comp-name-subheader-container{
+  flex: 1;
+  font-family: Nerko One, Arial;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.comp-title{
+  margin-top: 15px;
+  font-family: Nico Moji, Arial;
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: rgb(23, 212, 255);
+  -webkit-text-stroke: 1px rgb(23, 212, 255);;
+  letter-spacing: 5px;
+}
+
+.comp-list-container{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.comp-image-container{
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fortnite-creative{
+  height: 400px;
+  width: 90%;
+  object-fit: cover;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0 0 50px #cdd9ff;
+}
+
+.comp-name-description-container{
+  flex: 1;
+  font-family: Nerko One, Arial;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin-right: 10px;
+  -webkit-text-stroke: 1px rgb(98, 48, 136);
+}
+
+.enter-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.enter{
+  font-size: 30px;
+  padding: 10px 20px;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Tiny5, Arial;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.enter:hover{
+  background-color: lightblue;
+  cursor: pointer;
+  border: 1px solid lightpink;
+  box-shadow: 0 0 10px lightpink;
+  transition: all .5s ease;
+  transition: box-shadow .2s ease;
+}
+
+/*There are no other events at the moment*/
+.no-other-events{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.no-other-events-text{
+  color: white;
+  font-size: 20px;
+}

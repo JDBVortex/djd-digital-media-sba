@@ -1,0 +1,210 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  align-items: center;
+
+  background-color: #040c24;
+
+  z-index: 100;
+
+  color: white;
+  font-family: "Gugi", Arial;
+}
+
+.header-link{
+  text-decoration: none;
+  color: #FFBF00;
+}
+
+/*Left Side*/
+.left-section{
+  display: flex;
+  flex: 1;
+}
+
+.gamertingz-logo-header{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-left: 30px;
+}
+
+/*About Us Section Tooltip*/
+  .about-us-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-us-container .tooltip{
+    position: absolute;
+    background-color: black;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(to bottom right, #011c6c, #e100ff);
+    border-image-slice: 1;
+    border-radius: 2px;
+
+    color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+
+    bottom: -37px;
+    left: 5px;
+    opacity: 0;
+    transition: opacity 0.15s;
+
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  .about-us-container:hover .tooltip{
+    opacity: 1;
+  }
+
+/*Middle*/
+.middle-section{
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.home{
+  text-decoration: underline;
+  color: #FFBF00;
+}
+
+.courses{
+font-weight: bold;
+text-decoration: underline;
+text-decoration-style: double;
+color: white;
+}
+
+.streams{
+  text-decoration: underline;
+  color: #FFBF00;
+}
+
+.donations{
+  text-decoration: underline;
+  color: #FFBF00;
+}
+
+.competitions{
+  text-decoration: underline;
+  color: #FFBF00;
+}
+
+/*Middle Section Tooltips*/
+.home-container,
+.courses-container,
+.streams-container,
+.donations-container,
+.competitions-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container .tooltip,
+.courses-container .tooltip,
+.streams-container .tooltip,
+.donations-container .tooltip,
+.competitions-container .tooltip{
+  position: absolute;
+  background-color: black;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #011c6c, #e100ff);
+  border-image-slice: 1;
+  border-radius: 2px;
+
+  color: white;
+  padding: 5px 15px;
+  font-size: 20px;
+
+  bottom: -45px;
+  opacity: 0;
+  transition: opacity 0.15s;
+
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.home-container:hover .tooltip,
+.courses-container:hover .tooltip,
+.streams-container:hover .tooltip,
+.donations-container:hover .tooltip,
+.competitions-container:hover .tooltip{
+  opacity: 1;
+}
+
+/*Right Side*/
+.right-section{
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+}
+
+.log-in{
+  margin-right: 20px;
+  color: #FFBF00;
+}
+
+.pfp{
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+/*Log In Tooltip*/
+.log-in-container,
+.account-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in-container .tooltip,
+.account-container .tooltip{
+  position: absolute;
+  background-color: black;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #011c6c, #e100ff);
+  border-image-slice: 1;
+  border-radius: 2px;
+
+  color: white;
+  padding: 5px 15px;
+  font-size: 15px;
+
+  bottom: -45px;
+  right: 5px;
+  opacity: 0;
+  transition: opacity 0.15s;
+
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.log-in-container:hover .tooltip,
+.account-container:hover .tooltip{
+  opacity: 1;
+}

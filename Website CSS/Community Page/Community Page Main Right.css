@@ -1,0 +1,150 @@
+/*Right Section Content*/
+#main-right-section-content{
+  position: relative;
+  height: inherit;
+  margin-top: 30px;
+  display: grid;
+  grid-template-rows: 200px 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  width: 380px;
+  margin-right: 5px;
+}
+
+#profile-class{
+  position: relative;
+  right: -5px;
+  height: 200px;
+  border-radius: 2px;
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+#profile-background{
+  max-height: 100%;
+  width: inherit;
+  object-fit: cover;
+}
+
+#welcome{
+  position: absolute;
+  bottom: 30px;
+  color: white;
+  font-family: Ibarra Real Nova, Arial;
+  letter-spacing: 5px;
+  margin-left: 7px;
+}
+
+#welcome-prompt{
+  position: absolute;
+  bottom: 5px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 5px;
+  margin-left: 10px;
+}
+
+#right-column-list{
+  position: absolute;
+  top: 200px;
+  width: 400px;
+  padding-top: 10px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  margin-right: 20px;
+}
+
+#recommended-friends{ 
+ font-family: Ibarra Real Nova, Arial;
+ font-weight: bold;
+ font-size: 20px;
+ color: white;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+}
+
+.friends-list-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.potential-friends-list{
+  flex: 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.potential-friends{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 25px 10px;
+  background-color: #061032;
+}
+
+.friend-pfp{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.friends-description{
+  flex: 1;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 5px;
+}
+
+.friend-name{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  font-family: Gugi, Arial;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.interests{
+  color: white;
+  letter-spacing: 2px;
+  font-family: Goudy Bookletter 1911, Arial;
+  margin-bottom: 5px;
+}
+
+.request-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100%;
+}
+
+.request{
+  height: 30px;
+  width: 100%;
+  padding: 5px;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.request:hover{
+  background-color: rgb(0, 0, 136);
+  transition: all 0.2s ease;
+}

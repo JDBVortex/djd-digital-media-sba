@@ -1,0 +1,103 @@
+* {
+  /*to stop weird side overflow from default padding and margin*/
+  padding: 0;
+  margin: 0;
+}
+
+/*load Nico Moji font*/
+@font-face {
+  font-family: 'Nico Moji';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/nicomoji/v1/NicoMoji-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/nicomoji/v1/NicoMoji-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/nicomoji/v1/NicoMoji-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/nicomoji/v1/NicoMoji-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/nicomoji/v1/NicoMoji-Regular.ttf) format('truetype');
+}
+
+img{
+  display: block;
+}
+
+/*Page Transition*/
+#home-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#courses-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#login-page-main{
+  animation: transitionIn 1s ease;
+}
+
+#codm-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#fortnite-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#warframe-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#elden-ring-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#apex-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#warzone-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#forza-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#ssbu-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#pubg-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#rocket-league-page-main{
+  animation: transitionIn 2s ease;
+}
+
+#community-page-main{
+  animation: transitionIn 1s ease;
+}
+
+#donations-page-anim{
+  animation: transitionIn 2s ease;
+}
+
+#comp-page-main{
+  animation: transitionIn 2s ease;
+}
+
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+    transform: rotateX(-10deg);
+    transform: rotateY(-10deg);
+    transform: translateY(-10px);
+  }
+
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+    transform: rotateY(0);
+    transform: translateY(0);
+  }
+}
+
