@@ -68,10 +68,16 @@
   margin-bottom: 20px;
 }
 
+#comp-title-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .comp-title{
   margin-top: 15px;
   font-family: Nico Moji, Arial;
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 20px;
   color: rgb(23, 212, 255);
   -webkit-text-stroke: 1px rgb(23, 212, 255);
