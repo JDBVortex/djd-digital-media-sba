@@ -64,9 +64,18 @@
     font-family: "Ibarra Real Nova", Arial;
     font-size: 30px;
     text-align: center;
-    font-style: italic;
     letter-spacing: 5px;
     color: white;
+    display: inline-block;
+    font-weight: 500;
+  }
+
+  .master{
+    text-decoration:underline;
+    text-decoration-style:double;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    font-weight: 700;
   }
 
   .gamertingz-logo-container{
