@@ -49,12 +49,14 @@ Copyright information
 Social media section
 
 # Project Structure
+```text
 GamerTingz/
 ├── Competitions Page/
 ├── Home Page/
 ├── Website CSS/
 └── Website Images/
-        
+```
+ 
 # What I Practiced
 
 This project gave me experience working with:
