@@ -4,11 +4,12 @@ Jajuan Brown
 BSc Computing
 University of Technology, Jamaica
 
-## About this Project
+
+# About this Project
 This project was created as a web development project to practice building a multi-page website using HTML and CSS, for the sake of my Grade 13 Digital Media Unit 2 Internal Assessment Project.
 
-## Project Overview
 
+# Project Overview
 The GamerTingz website is designed around the idea of creating an online platform for gamers. The website provides access to different sections including gaming courses, a community, competitions, donations, and user accounts.
 
 The homepage introduces the GamerTingz platform through a combination of custom layouts, images, typography, navigation elements, embedded media, and descriptive content.
