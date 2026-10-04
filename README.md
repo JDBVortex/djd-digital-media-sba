@@ -86,7 +86,3 @@ Different Google Fonts were experimented with throughout the project to create d
 The main purpose of GamerTingz was to explore how a larger website could be planned and structured using fundamental HTML and CSS concepts.
 
 Rather than being a fully functional gaming platform, this project represents the frontend design and structure of a gaming website concept.
-
-
-BSc Computing
-University of Technology, Jamaica
